@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int my_integer = input.nextInt();
+        float my_float = input.nextFloat();
+        double my_double = input.nextDouble();
+        boolean my_boolean = input.nextBoolean();
+        System.out.println(my_integer);
+        System.out.println(my_float);
+        System.out.println(my_double);
+        System.out.println(my_boolean);
+    }
+}
